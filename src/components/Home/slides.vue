@@ -1,6 +1,11 @@
 <template>
   <div class="root">
-    <v-carousel cycle hide-delimiter-background show-arrows-on-hover>
+    <v-carousel
+      cycle
+      hide-delimiter-background
+      show-arrows-on-hover
+      height="700px"
+    >
       <v-carousel-item
         v-for="(slide, i) in items"
         :src="slide.src"
